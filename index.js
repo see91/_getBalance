@@ -34,7 +34,6 @@ app.get('/getBalance', (req, res) => {
 				status: 200,
 				data: {
 					address: address,
-					symbol: 'ETH',
 					eth_balance: eth_balance,
 					true_balance: true_balance
 				}
